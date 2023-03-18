@@ -20,4 +20,5 @@ public class UsersServiceImpl extends GenericServiceImpl<User,Long> implements U
     public CrudRepository<User, Long> getDao() {
         return usersDaoApi;
     }
+    //
 }
